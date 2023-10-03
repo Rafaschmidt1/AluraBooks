@@ -11,10 +11,10 @@
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
-    align-items:center;    
+    align-items: center;
 }
 
-.cantainer{
+.container{
     display: flex;
     align-items: center;
 }
@@ -24,10 +24,10 @@
 }
 
 .lista-menu{
-    display:none ;
+    display: none;
 }
 
-.cntainer-botao:checked ~ .lista-menu{
+.container-botao:checked ~ .lista-menu{
     display: block;
 }
 
